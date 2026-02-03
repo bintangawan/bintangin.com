@@ -13,7 +13,39 @@ const projects = [
       "Platform digital untuk pengelolaan, penulisan, dan pengumpulan laporan praktikum mahasiswa Ilmu Komputer secara terstruktur, interaktif, dan terintegrasi dengan sistem penilaian laboratorium.",
     tech: ["PHP", "MySQL", "TailwindCSS"],
     image: "images/laprakilkomp.png",
-    url: "https://laprak-ilkomp.my.id",
+    url: "https://laprakapps.site",
+  },
+  {
+    title: "Event System Attendance",
+    description:
+    "Aplikasi sistem absensi event berbasis web yang memungkinkan peserta melakukan check-in secara digital menggunakan QR Code. Dilengkapi dengan validasi event real-time, manajemen peserta, dashboard admin, serta antarmuka modern yang responsif untuk mendukung pelaksanaan acara secara efisien dan terstruktur.",
+    tech: [
+      "React.js",
+      "Vite",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MySQL",
+      "JWT Authentication",
+      "QR Code Scanner"
+    ],
+    image: "images/evs.png",
+    url: "https://event.bintangin.com"
+  },
+  {
+    title: "MTs PPTA Abdullah Al Busyroni – School Information System",
+    description:
+      "Sistem informasi sekolah berbasis web untuk MTs PPTA Abdullah Al Busyroni yang mendukung proses pendaftaran siswa baru, manajemen data siswa, pengelolaan informasi sekolah, serta notifikasi email otomatis. Dirancang untuk mempermudah administrasi sekolah dengan antarmuka yang sederhana, aman, dan responsif.",
+    tech: [
+      "Laravel",
+      "React.js",
+      "MySQL",
+      "ShadCN",
+      "Email SMTP",
+      "Chatbot"
+    ],
+    image: "images/mtsppta.png",
+    url: "https://mtspptaabdullahalbusyroni.layanansims.id"
   },
   {
     title: "Pinjemin - Making All Your Needs Easier",
