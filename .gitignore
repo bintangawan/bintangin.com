@@ -7,10 +7,33 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Dependencies and build output
+node_modules/
+dist/
+dist-ssr/
+.project-deps/
+.esbuild-repair/
+.vite/
+.vite-repair/
 *.local
+
+# Lighthouse and browser automation artifacts
+.lh-system-temp*/
+.lighthouse-tmp*/
+.lighthouse-report*.json
+.lighthouse-report*.html
+.lighthouseci/
+.agent-browser/
+.playwright/
+playwright-report/
+blob-report/
+test-results/
+coverage/
+
+# Font tooling and visual-check artifacts
+.fonttools-deps*/
+.font-visual-check*/
+font-preview*.png
 
 # Editor directories and files
 .vscode/*
